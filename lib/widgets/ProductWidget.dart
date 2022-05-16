@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:rental_travel_app/core/components/boxdecorations.dart';
+import 'package:rental_travel_app/core/constants/RadiusConst.dart';
 import 'package:rental_travel_app/core/constants/colorConst.dart';
 import 'package:rental_travel_app/extension/size_extension.dart';
 
@@ -28,16 +29,14 @@ class ProductWidget extends StatelessWidget {
       margin: EdgeInsets.only(bottom: context.h * 0.040,top: context.h * 0.040,left: context.w * 0.050),
       width: context.w * 0.75,
       height: context.h * 0.25,
-      // color: Colors.yellow,
       decoration: BoxDecorations.boxALLdecorations(ColorConst.white),
       child: Column(
         children: [
           Expanded(
               flex: 6,
-              child: Container(
-                  decoration: BoxDecorations.boxTopdecorations(
-                      color: ColorConst.kPrimaryColor,
-                      image: 'https://source.unsplash.com/random'))),
+              child: SizedBox(
+                width: context.w,
+                  child: ClipRRect(borderRadius: const BorderRadius.only(topLeft: Radius.circular(RadiusConst.medium), topRight: Radius.circular(RadiusConst.medium)),child: FadeInImage(fadeInCurve: Curves.bounceIn,fit: BoxFit.fitWidth,placeholder: const AssetImage('assets/images/plane.gif'), image: NetworkImage(pic))))),
           Expanded(
             flex: 4,
             child: Container(

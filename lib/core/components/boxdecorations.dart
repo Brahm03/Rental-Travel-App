@@ -19,10 +19,9 @@ class BoxDecorations {
             bottomRight: Radius.circular(RadiusConst.medium)));
   }
 
-  static boxTopdecorations({required Color color,required String image}) {
-    return BoxDecoration(
-      image: DecorationImage(image: NetworkImage(image.toString()), fit: BoxFit.cover),
-      borderRadius: const BorderRadius.only(topLeft: Radius.circular(RadiusConst.medium), topRight: Radius.circular(RadiusConst.medium))
+  static boxTopdecorations({required Color color}) {
+    return const BoxDecoration(
+      borderRadius:  BorderRadius.only(topLeft: Radius.circular(RadiusConst.medium), topRight: Radius.circular(RadiusConst.medium))
     );
   }
 }

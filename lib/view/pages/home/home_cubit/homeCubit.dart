@@ -10,7 +10,7 @@ class HomeCubit extends Cubit<MyState> {
 
   static List? globalData;
 
-  Set _temp = {};
+  final Set _temp = {};
 
   changeLange(String lang, BuildContext context) {
     if (lang == 'en') {
@@ -53,4 +53,6 @@ class HomeCubit extends Cubit<MyState> {
       }
     }
   }
+
+  get getTemp => _temp;
 }

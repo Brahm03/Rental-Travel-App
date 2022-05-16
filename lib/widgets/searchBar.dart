@@ -8,12 +8,14 @@ import 'package:rental_travel_app/extension/size_extension.dart';
 import 'package:rental_travel_app/view/pages/home/home_cubit/homeCubit.dart';
 
 class SearchBar extends StatelessWidget {
+  final BuildContext context;
   const SearchBar({
+    required this.context,
     Key? key,
   }) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(context) {
     return Row(
       children: [
         Container(

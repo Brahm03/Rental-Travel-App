@@ -7,7 +7,8 @@
             "room" : 4,
             "bedroom" : 1,
             "bathroom" : 2,
-            "owner" : "Michel Orlando"
+            "owner" : "Michel Orlando",
+            "pic" : "https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"
         },
         {
             "name": "Long beach Ixtapa",
@@ -16,7 +17,8 @@
             "room" : 6,
             "bedroom" : 3,
             "bathroom" : 4,
-            "owner" : "Timati Kastan"
+            "owner" : "Timati Kastan",
+            "pic" : "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bG9uZyUyMGJlYWNoJTIwaXh0YXBhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60"
         },
         {
             "name": "Sun Valley",
@@ -25,7 +27,8 @@
             "room" : 8,
             "bedroom" : 4,
             "bathroom" : 4,
-            "owner" : "John Holland"
+            "owner" : "John Holland",
+            "pic" : "https://images.unsplash.com/photo-1615942587157-591803fcf41c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3VuJTIwdmFsbGV5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60"
         }
     ]
 ]
