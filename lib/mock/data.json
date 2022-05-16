@@ -1,0 +1,31 @@
+[
+    [
+        {
+            "name": "Euro House",
+            "cost": "500",
+            "wi-fi" : true,
+            "room" : 4,
+            "bedroom" : 1,
+            "bathroom" : 2,
+            "owner" : "Michel Orlando"
+        },
+        {
+            "name": "Long beach Ixtapa",
+            "cost": "700",
+            "wi-fi" : false,
+            "room" : 6,
+            "bedroom" : 3,
+            "bathroom" : 4,
+            "owner" : "Timati Kastan"
+        },
+        {
+            "name": "Sun Valley",
+            "cost": "800",
+            "wi-fi" : true,
+            "room" : 8,
+            "bedroom" : 4,
+            "bathroom" : 4,
+            "owner" : "John Holland"
+        }
+    ]
+]
