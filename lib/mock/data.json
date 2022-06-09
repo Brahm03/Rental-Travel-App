@@ -8,7 +8,8 @@
             "bedroom" : 1,
             "bathroom" : 2,
             "owner" : "Michel Orlando",
-            "pic" : "https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"
+            "pic" : "https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60",
+            "location" : "Avenida Tulum Lote 19\nSm 23, Cancún"
         },
         {
             "name": "Long beach Ixtapa",
@@ -18,7 +19,8 @@
             "bedroom" : 3,
             "bathroom" : 4,
             "owner" : "Timati Kastan",
-            "pic" : "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bG9uZyUyMGJlYWNoJTIwaXh0YXBhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60"
+            "pic" : "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bG9uZyUyMGJlYWNoJTIwaXh0YXBhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60",
+            "location" : "Avenida Tulum Lote 19\nSm 23, Cancún"
         },
         {
             "name": "Sun Valley",
@@ -28,7 +30,78 @@
             "bedroom" : 4,
             "bathroom" : 4,
             "owner" : "John Holland",
-            "pic" : "https://images.unsplash.com/photo-1615942587157-591803fcf41c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3VuJTIwdmFsbGV5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60"
+            "pic" : "https://images.unsplash.com/photo-1615942587157-591803fcf41c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3VuJTIwdmFsbGV5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60",
+            "location" : "Avenida Tulum Lote 19\nSm 23, Cancún"
+        }
+    ],
+    [
+        {
+            "name": "Modern House",
+            "cost": "1100",
+            "wi-fi" : true,
+            "room" : 6,
+            "bedroom" : 3,
+            "bathroom" : 3,
+            "owner" : "Tom Holland",
+            "pic" : "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770",
+            "location" : "Avenida Tulum Lote 19\nSm 23, Cancún"
+        },
+        {
+            "name": "Pascal Bernarda",
+            "cost": "700",
+            "wi-fi" : true,
+            "room" : 5,
+            "bedroom" : 2,
+            "bathroom" : 2,
+            "owner" : "Timati Kastan",
+            "pic" : "https://images.unsplash.com/photo-1571055107559-3e67626fa8be?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2231",
+            "location" : "Lac Lyster, Coaticook\nQC, Canada"
+        },
+        {
+            "name": "Brick home",
+            "cost": "800",
+            "wi-fi" : true,
+            "room" : 7,
+            "bedroom" : 3,
+            "bathroom" : 2,
+            "owner" : "Dillon Kyd",
+            "pic" : "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770",
+            "location" : "Oshawa\nON, Canada"
+        }
+    ],
+    [
+        {
+            "name": "Euro House",
+            "cost": "500",
+            "wi-fi" : true,
+            "room" : 4,
+            "bedroom" : 1,
+            "bathroom" : 2,
+            "owner" : "Michel Orlando",
+            "pic" : "https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60",
+            "location" : "Avenida Tulum Lote 19\nSm 23, Cancún"
+        },
+        {
+            "name": "Long beach Ixtapa",
+            "cost": "700",
+            "wi-fi" : false,
+            "room" : 6,
+            "bedroom" : 3,
+            "bathroom" : 4,
+            "owner" : "Timati Kastan",
+            "pic" : "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bG9uZyUyMGJlYWNoJTIwaXh0YXBhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60",
+            "location" : "Avenida Tulum Lote 19\nSm 23, Cancún"
+        },
+        {
+            "name": "Sun Valley",
+            "cost": "800",
+            "wi-fi" : true,
+            "room" : 8,
+            "bedroom" : 4,
+            "bathroom" : 4,
+            "owner" : "John Holland",
+            "pic" : "https://images.unsplash.com/photo-1615942587157-591803fcf41c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3VuJTIwdmFsbGV5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60",
+            "location" : "Avenida Tulum Lote 19\nSm 23, Cancún"
         }
     ]
 ]

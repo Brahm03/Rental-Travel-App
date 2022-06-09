@@ -10,5 +10,6 @@
     "room" : "habitaciones",
     "bedroom" : "camas",
     "bathroom" : "baños",
-    "night" : "nochè"
+    "night" : "nochè",
+    "home" : "House"
 }

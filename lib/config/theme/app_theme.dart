@@ -4,6 +4,7 @@ import 'package:rental_travel_app/core/constants/colorConst.dart';
 
 class AppTheme {
   static get light => ThemeData(
+      useMaterial3: true,
       fontFamily: 'Circular Std',
       textTheme:  const TextTheme(
         headline1: TextStyle(color: ColorConst.kPrimaryColor),

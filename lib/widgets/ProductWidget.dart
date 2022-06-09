@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:rental_travel_app/core/components/boxdecorations.dart';
@@ -36,7 +37,7 @@ class ProductWidget extends StatelessWidget {
               flex: 6,
               child: SizedBox(
                 width: context.w,
-                  child: ClipRRect(borderRadius: const BorderRadius.only(topLeft: Radius.circular(RadiusConst.medium), topRight: Radius.circular(RadiusConst.medium)),child: FadeInImage(fadeInCurve: Curves.bounceIn,fit: BoxFit.fitWidth,placeholder: const AssetImage('assets/images/plane.gif'), image: NetworkImage(pic))))),
+                  child: ClipRRect(borderRadius: const BorderRadius.only(topLeft: Radius.circular(RadiusConst.medium), topRight: Radius.circular(RadiusConst.medium)),child: FadeInImage(fadeInCurve: Curves.bounceIn,fit: BoxFit.fitWidth,placeholder: const AssetImage('assets/images/plane.gif'), image: CachedNetworkImageProvider(pic))))),
           Expanded(
             flex: 4,
             child: Container(

@@ -2,11 +2,9 @@ import 'package:animate_do/animate_do.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rental_travel_app/core/constants/FontSizeConst.dart';
+import 'package:rental_travel_app/base/base_view.dart';
 import 'package:rental_travel_app/core/constants/PMconst.dart';
-import 'package:rental_travel_app/core/constants/colorConst.dart';
 import 'package:rental_travel_app/extension/size_extension.dart';
-import 'package:rental_travel_app/view/pages/home/home_cubit/homeCubit.dart';
 import 'package:rental_travel_app/view/screens/splash/cubit/splashCubit.dart';
 import 'package:rental_travel_app/view/state/myState.dart';
 import 'package:rental_travel_app/widgets/myButton.dart';
@@ -17,11 +15,11 @@ class SplashPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-        create: ((context) => SplashCubit()), child: Splash(context));
+    return BaseView(viewModel: SplashPage, onPageBuilder: (context, widget) => BlocProvider(
+        create: ((context) => SplashCubit()), child: splash(context)));
   }
 
-  Scaffold Splash(BuildContext context) {
+  Scaffold splash(BuildContext context) {
     return Scaffold(
       body: BlocConsumer<SplashCubit, MyState>(
         listener: ((context, state) {}),
@@ -41,7 +39,7 @@ class SplashPage extends StatelessWidget {
                           children: [
                             SizedBox(
                               width: double.infinity,
-                              height: context.h * 0.005,
+                              height: context.h * 0.003,
                               child: ListView.builder(
                                   physics: const NeverScrollableScrollPhysics(),
                                   scrollDirection: Axis.horizontal,
@@ -54,17 +52,14 @@ class SplashPage extends StatelessWidget {
                             ),
                             Text(
                               'lets'.tr(),
-                              style: const TextStyle(
-                                  fontFamily: "Circular Std",
-                                  fontWeight: FontWeight.w100,
-                                  fontSize: FontSizeConst.huge),
+                              style: Theme.of(context).textTheme.headline3,
                             )
                           ],
                         ),
                       ),
                     )),
                 Expanded(
-                    flex: 8,
+                    flex: 9,
                     child: Column(
                       children: [
                         Stack(
@@ -73,18 +68,8 @@ class SplashPage extends StatelessWidget {
                             child: InkWell(
                               onTap: context.read<SplashCubit>().changeIndex,
                               child: FadeInLeftBig(
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                      backgroundBlendMode: BlendMode.colorDodge,
-                                      color: ColorConst.black.withOpacity(0.5),
-                                      image: DecorationImage(
-                                          fit: BoxFit.cover,
-                                          image: AssetImage(context
-                                                  .watch<SplashCubit>()
-                                                  .pics[context.read<SplashCubit>().i]),
-                                          colorFilter: ColorFilter.mode(
-                                              ColorConst.black.withOpacity(0.4),
-                                              BlendMode.darken))),
+                                child: SizedBox(
+                                    child: FadeInImage(fit: BoxFit.cover,placeholder: const AssetImage('assets/images/plane.gif'), image: AssetImage(context.watch<SplashCubit>().pics[context.watch<SplashCubit>().i])),
                                 ),
                               ),
                             ),

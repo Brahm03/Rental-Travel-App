@@ -26,7 +26,7 @@ class MyButton extends StatelessWidget {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(RadiusConst.medium),
           )),
-      child: Text(text),
+      child: Text(text, style: Theme.of(context).textTheme.headline5,),
     );
   }
 }

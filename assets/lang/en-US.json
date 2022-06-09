@@ -10,5 +10,6 @@
     "room" : "room",
     "bedroom" : "bedroom",
     "bathroom" : "bathroom",
-    "night" : "night"
+    "night" : "night",
+    "home" : "House"
 }
